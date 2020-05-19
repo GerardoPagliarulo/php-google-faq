@@ -25,7 +25,7 @@ li {
   position: fixed;
   width: 100%;
   top: 0;
-  padding: 25px 30px 10px 30px;
+  padding: 25px 30px 0px 30px;
   background-color: #fff;
   border-bottom: 1px solid rgba(151, 151, 151, 0.5);
 }
@@ -46,6 +46,7 @@ li {
 .main-header .header-menu {
   display: flex;
   padding-top: 15px;
+  line-height: 24px;
   font-weight: 500;
   color: #5f6368;
 }
@@ -54,13 +55,14 @@ li {
   font-size: 15px;
   cursor: pointer;
 }
+.main-header .header-menu .menu-options.active {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
 .main-header .header-menu .menu-options:last-child {
   flex-grow: 1;
   text-align: right;
   margin-right: 0;
-}
-.main-header .header-menu .menu-options:active {
-  color: #3367d6;
 }
 
 .main-content {

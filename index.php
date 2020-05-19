@@ -47,7 +47,7 @@
             <li class="menu-options">Norme sulla privacy</li>
             <li class="menu-options">Termini di servizio</li>
             <li class="menu-options">Tecnologie</li>
-            <li class="menu-options">Domande frequenti</li>
+            <li class="menu-options active">Domande frequenti</li>
             <li class="menu-options">Account Google</li>
         </ul>
     </header>
