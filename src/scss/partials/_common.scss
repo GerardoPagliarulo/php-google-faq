@@ -1,0 +1,36 @@
+/*************
+    COMMONS
+**************/
+// MIXIN
+// Container
+@mixin container ($size, $margin) {
+    max-width: $size;
+    margin: $margin;
+}
+
+// Display flex
+// Display flex
+@mixin disp-flex {
+    display: flex;
+}
+
+@mixin disp-flex-horizontal-center {
+    @include disp-flex;
+    align-items: center;
+}
+
+// GENERAL
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}

@@ -1,0 +1,27 @@
+.main-footer {
+    background-color: $backgr-color-footer;
+    border-top: 1px solid #eee;
+    .container {
+        @include container(980px, 0 auto);
+        .footer-menu {
+            @include disp-flex-horizontal-center;
+            padding: 15px 0;
+            .list-options {
+                @include disp-flex;
+                li {
+                    margin-right: 15px;
+                    font-size: $font-size-11;
+                    color: $property-light-grey;
+                    cursor: pointer;
+                }
+            }
+            .choice-language {
+                flex-grow: 1;
+                text-align: right;
+                #languages {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}

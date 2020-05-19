@@ -1,0 +1,43 @@
+/************
+    HEADER
+*************/
+.main-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 25px 30px 10px 30px;
+    background-color: $backgr-color-header;
+    border-bottom: 1px solid rgba(151,151,151,0.5);
+    .header-logo {
+        @include disp-flex-horizontal-center;
+        margin-bottom: 10px;
+        img {
+            max-width: 25px;
+            margin-right: 10px;
+        }
+        h1 {
+            font-size: $font-size-22;
+            font-weight: $font-weight-400;
+            color: $property-grey;
+        }
+    }
+    .header-menu {
+        @include disp-flex;
+        padding-top: 15px;
+        font-weight: $font-weight-500;
+        color: $property-grey;
+        .menu-options {
+            margin-right: 45px;
+            font-size: $font-size-15;
+            cursor: pointer;
+        }
+        .menu-options:last-child {
+            flex-grow: 1;
+            text-align: right;
+            margin-right: 0;
+        }
+        .menu-options:active {
+            color: $property-blue;
+        }
+    }
+}

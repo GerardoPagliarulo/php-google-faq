@@ -1,0 +1,21 @@
+.main-content {
+    padding-top: 200px;
+    .container {
+        @include container(980px, 0 auto);
+        .main-text {
+            .question {
+                margin-bottom: 25px;
+                line-height: $line-height-32;
+                font-size: $font-size-24;
+                font-weight: $font-weight-500;
+                color: $property-dark-grey;
+            }
+            .answer {
+                margin-bottom: 70px;
+                line-height: $line-height-24;
+                font-size: $font-size-14;
+                color: $property-grey;
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+/*************
+    VARS
+**************/
+/*************
+    COMMONS
+**************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/************
+    HEADER
+*************/
+.main-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 25px 30px 10px 30px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+.main-header .header-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main-header .header-logo img {
+  max-width: 25px;
+  margin-right: 10px;
+}
+.main-header .header-logo h1 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #5f6368;
+}
+.main-header .header-menu {
+  display: flex;
+  padding-top: 15px;
+  font-weight: 500;
+  color: #5f6368;
+}
+.main-header .header-menu .menu-options {
+  margin-right: 45px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.main-header .header-menu .menu-options:last-child {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 0;
+}
+.main-header .header-menu .menu-options:active {
+  color: #3367d6;
+}
+
+.main-content {
+  padding-top: 200px;
+}
+.main-content .container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.main-content .container .main-text .question {
+  margin-bottom: 25px;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c4043;
+}
+.main-content .container .main-text .answer {
+  margin-bottom: 70px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.main-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+}
+.main-footer .container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.main-footer .container .footer-menu {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+.main-footer .container .footer-menu .list-options {
+  display: flex;
+}
+.main-footer .container .footer-menu .list-options li {
+  margin-right: 15px;
+  font-size: 11px;
+  color: rgba(61, 61, 61, 0.8);
+  cursor: pointer;
+}
+.main-footer .container .footer-menu .choice-language {
+  flex-grow: 1;
+  text-align: right;
+}
+.main-footer .container .footer-menu .choice-language #languages {
+  width: 200px;
+}
